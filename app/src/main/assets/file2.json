@@ -1,0 +1,371 @@
+{
+  "customerVoice": [
+    {
+      "comment": "FREE SERVICE 15000 KM",
+      "timeUnit": 20,
+      "workStatus": "In Progress...",
+      "totalJobCards": 3,
+      "completeJobCards": 2,
+      "packageList": [
+        {
+          "packageDesc": "Paid Service 75.000 km/5th Year",
+          "packageCode": "0105 D0570",
+          "workStatus": "complete",
+
+          "jobStartTime": "00:00",
+          "jobDeadTime": "00:00",
+          "jobTotalTime": "00:00",
+          "jobTotalTu": "20",
+
+          "remarks": "as per ins approval replaced fr w/s glass,dicky glass,repaired bonnet,roof,rh both door,dicky door,rh qtr panel, rh fender",
+          "PartList": [
+            {
+              "partNo": "OL3372489",
+              "partDescription": "3372489 MAG PRO OE 5W40 208L",
+              "unit": "NOS",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "N  90813202",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "01X301127C",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "6Q0820367B",
+              "partDescription": "POLLENFILT",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "03C115561H",
+              "partDescription": "OIL FILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "036129620K",
+              "partDescription": "AIRFILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            }
+          ],
+          "labourList": [
+            {
+              "labourCode": "",
+              "labourDescription": "CONSOLIDATED LABOUR 1",
+              "tu": "7155",
+              "amount": 41500
+            },
+            {
+              "labourCode": "",
+              "description": "washing",
+              "tu": "86",
+              "amount": 500
+            },
+            {
+              "labourCode": "",
+              "description": "consolidated labour 3",
+              "tu": "862",
+              "amount": 5000
+            }
+          ]
+        },
+        {
+          "packageDesc": "Paid Service 75.000 km/5th Year",
+          "packageCode": "0105 D0570",
+          "workStatus": "Start",
+
+          "jobStartTime": "10:00",
+          "jobDeadTime": "00:00",
+          "jobTotalTime": "00:00",
+          "jobTotalTu": "100",
+
+          "remarks": "as per ins approval replaced fr w/s glass,dicky glass,repaired bonnet,roof,rh both door,dicky door,rh qtr panel, rh fender",
+          "PartList": [
+            {
+              "partNo": "OL3372489",
+              "partDescription": "3372489 MAG PRO OE 5W40 208L",
+              "unit": "NOS",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "N  90813202",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "01X301127C",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "6Q0820367B",
+              "partDescription": "POLLENFILT",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "03C115561H",
+              "partDescription": "OIL FILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "036129620K",
+              "partDescription": "AIRFILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            }
+          ],
+          "labourList": [
+            {
+              "labourCode": "",
+              "labourDescription": "CONSOLIDATED LABOUR 1",
+              "tu": "7155",
+              "amount": 41500
+            },
+            {
+              "labourCode": "",
+              "description": "washing",
+              "tu": "86",
+              "amount": 500
+            },
+            {
+              "labourCode": "",
+              "description": "consolidated labour 3",
+              "tu": "862",
+              "amount": 5000
+            }
+          ]
+        },
+        {
+          "packageDesc": "Paid Service 75.000 km/5th Year",
+          "packageCode": "0105 D0570",
+          "workStatus": "abort",
+
+          "jobStartTime": "02:00 pm",
+          "jobDeadTime": "00:00",
+          "jobTotalTime": "00:00",
+          "jobTotalTu": "0",
+
+          "remarks": "as per ins approval replaced fr w/s glass,dicky glass,repaired bonnet,roof,rh both door,dicky door,rh qtr panel, rh fender",
+          "PartList": [
+            {
+              "partNo": "OL3372489",
+              "partDescription": "3372489 MAG PRO OE 5W40 208L",
+              "unit": "NOS",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "N  90813202",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "01X301127C",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "6Q0820367B",
+              "partDescription": "POLLENFILT",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "03C115561H",
+              "partDescription": "OIL FILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "036129620K",
+              "partDescription": "AIRFILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            }
+          ],
+          "labourList": [
+            {
+              "labourCode": "",
+              "labourDescription": "CONSOLIDATED LABOUR 1",
+              "tu": "7155",
+              "amount": 41500
+            },
+            {
+              "labourCode": "",
+              "description": "washing",
+              "tu": "86",
+              "amount": 500
+            },
+            {
+              "labourCode": "",
+              "description": "consolidated labour 3",
+              "tu": "862",
+              "amount": 5000
+            }
+          ]
+        },
+        {
+          "packageDesc": "Paid Service 75.000 km/5th Year",
+          "packageCode": "0105 D0570",
+          "workStatus": "No Started",
+
+          "jobStartTime": "09:00 pm",
+          "jobDeadTime": "00:00",
+          "jobTotalTime": "00:00",
+          "jobTotalTu": "0",
+
+
+          "remarks": "as per ins approval replaced fr w/s glass,dicky glass,repaired bonnet,roof,rh both door,dicky door,rh qtr panel, rh fender",
+          "PartList": [
+            {
+              "partNo": "OL3372489",
+              "partDescription": "3372489 MAG PRO OE 5W40 208L",
+              "unit": "NOS",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "N  90813202",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "01X301127C",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "6Q0820367B",
+              "partDescription": "POLLENFILT",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "03C115561H",
+              "partDescription": "OIL FILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "036129620K",
+              "partDescription": "AIRFILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            }
+          ],
+          "labourList": [
+            {
+              "labourCode": "",
+              "labourDescription": "CONSOLIDATED LABOUR 1",
+              "tu": "7155",
+              "amount": 41500
+            },
+            {
+              "labourCode": "",
+              "description": "washing",
+              "tu": "86",
+              "amount": 500
+            },
+            {
+              "labourCode": "",
+              "description": "consolidated labour 3",
+              "tu": "862",
+              "amount": 5000
+            }
+          ]
+        },
+        {
+          "packageDesc": "Paid Service 75.000 km/5th Year",
+          "packageCode": "0105 D0570",
+          "workStatus": "abort",
+
+          "jobStartTime": "11:00 am",
+          "jobDeadTime": "00:00",
+          "jobTotalTime": "00:00",
+          "jobTotalTu": "0",
+
+
+
+          "remarks": "as per ins approval replaced fr w/s glass,dicky glass,repaired bonnet,roof,rh both door,dicky door,rh qtr panel, rh fender",
+          "PartList": [
+            {
+              "partNo": "OL3372489",
+              "partDescription": "3372489 MAG PRO OE 5W40 208L",
+              "unit": "NOS",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "N  90813202",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "01X301127C",
+              "partDescription": "SCREW",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "6Q0820367B",
+              "partDescription": "POLLENFILT",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "03C115561H",
+              "partDescription": "OIL FILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            },
+            {
+              "partNo": "036129620K",
+              "partDescription": "AIRFILTER",
+              "partQty": "1 NOS",
+              "type": "PARTS"
+            }
+          ],
+          "labourList": [
+            {
+              "labourCode": "",
+              "labourDescription": "CONSOLIDATED LABOUR 1",
+              "tu": "7155",
+              "amount": 41500
+            },
+            {
+              "labourCode": "",
+              "description": "washing",
+              "tu": "86",
+              "amount": 500
+            },
+            {
+              "labourCode": "",
+              "description": "consolidated labour 3",
+              "tu": "862",
+              "amount": 5000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
