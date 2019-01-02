@@ -1,0 +1,27 @@
+{
+  "custInfo": {
+    "custName": "Mr. B. ANISH   ",
+    "mobile": "9094566549",
+    "email": "aswindfgg@gmail.com",
+    "city": "",
+    "state": "",
+    "vipCustomer": "y"
+  },
+  "vehInfo": {
+    "vehChassisNo": "TMBBDANA0DG033923",
+    "vehEngineNo": "CLS 141622",
+    "vehRegnNo1": "TN 09 BT",
+    "vehRegnNo2": 9556,
+    "vehBrand": "SKODA",
+    "vehDealer": "GURUDEV",
+    "vehModel": "RAPID",
+    "vehVariant": "ŠKODA RAPID ABN-AT PLUS 1.6 MPI",
+    "vehExteriorColor": "Brilliant Silver",
+    "vehSellingDealer": "GURUDEV",
+    "vehSellingDate": "2013-08-03T00:00:00",
+    "vehLocation": "",
+    "vehSerial": 0,
+    "vehOwnerSerial": 0,
+    "vehModelURL": "https://cdb.orbitsys.com/Orbitsys/Images/PRODUCT_IMAGES/SKODA/RAPID/tn_Default.jpg"
+  }
+}
