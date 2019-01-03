@@ -29,7 +29,7 @@ import com.orbitsysindia.skoda.wmst.util.data.Constants;
 import com.orbitsysindia.skoda.wmst.util.data.ConstantsSharedPrefs;
 import com.orbitsysindia.skoda.wmst.util.data.Utility;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.List;
 
 public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdapter.Holder> {
