@@ -61,12 +61,7 @@ public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdap
         setViewValues(holder, position);
 
         Log.e(TAG, "onBindViewHolder: "+position );
-       // holder.setIsRecyclable(false);
 
-        /*if (position == packageList.size()-1) {
-//            holder.enableWorkStatusButton();
-            holder.enableButton();
-        }*/
     }
 
 
@@ -89,19 +84,6 @@ public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdap
 
 
         Log.e(TAG, "setViewValues: " + packageList.get(position).workStatus);
-
-
-
-       /* if (
-                packageList.get(position).workStatus.equalsIgnoreCase("start") ||
-                        packageList.get(position).workStatus.equalsIgnoreCase("pause") ||
-                        packageList.get(position).workStatus.equalsIgnoreCase("no started")
-                )
-
-        {
-            holder.tvWorkStatus.setEnabled(true);
-        }*/
-
 
         holder.tvPackageName.setText(packageList.get(position).packageDesc);
         holder.tvWorkStatus.setText(packageList.get(position).workStatus);
@@ -128,7 +110,6 @@ public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdap
     public void onViewAttachedToWindow(@NonNull Holder holder) {
         super.onViewAttachedToWindow(holder);
         if (holder.getAdapterPosition() == packageList.size()-1) {
-//            holder.enableWorkStatusButton();
             Log.e(TAG, "onViewAttachedToWindow: "+holder.getAdapterPosition() );
             holder.enableButton();
         }
@@ -197,14 +178,12 @@ public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdap
 
                 case "complete":
                     ((GradientDrawable) drawable).setStroke(2, context.getResources().getColor(R.color.color_bg_blue_shade_006df0));
-                   // changeViewAlpha(rlPackageDetailRootView);
-                    // disableWorkStatusButton();
+
                     break;
 
                 case "abort":
-                   // changeViewAlpha(rlPackageDetailRootView);
                     ((GradientDrawable) drawable).setStroke(2, context.getResources().getColor(R.color.color_bg_grey_shade_959595));
-                    //disableWorkStatusButton();
+
                     break;
 
                 case "no started":
@@ -274,10 +253,10 @@ public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdap
         }
 
         private void changeViewAlpha(View view) {
+            view.findViewById(R.id.tvChat).setEnabled(false);
+            view.findViewById(R.id.tvChat).setVisibility(View.GONE);
+            view.findViewById(R.id.tvWorkStatus).setEnabled(false);
             view.setAlpha(.5f);
-            tvWorkStatus.setEnabled(false);
-            tvChat.setEnabled(false);
-
         }
 
 
@@ -332,14 +311,19 @@ public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdap
 
 
                 for (int index = 0; index < recyclerView.getChildCount(); index++) {
-                    View view = recyclerView.getChildAt(index)/*.findViewById(R.id.tvWorkStatus)*/;
+                    View view = recyclerView.getChildAt(index);
                     if (packageList.get(index).workStatus.equalsIgnoreCase("no started")) {
                         if (view != null) {
                             view.setEnabled(true);
                             view.findViewById(R.id.tvWorkStatus).setEnabled(true);
                             view.setAlpha(1f);
                             view.findViewById(R.id.tvChat).setEnabled(true);
+                            view.findViewById(R.id.tvChat).setVisibility(View.VISIBLE);
                         }
+                    }
+                    else
+                    {
+                        changeViewAlpha(view);
                     }
                 }
             }
@@ -382,15 +366,13 @@ public class PackageDetailAdapter extends RecyclerView.Adapter<PackageDetailAdap
                 {
                     v = recyclerView.getChildAt(i);
                     v.findViewById(R.id.tvChat).setEnabled(true);
+                    v.findViewById(R.id.tvChat).setVisibility(View.VISIBLE);
                     v.findViewById(R.id.tvWorkStatus).setEnabled(true);
 
                     v.setAlpha(1f);
                 } else
                     {
-
-                    v.findViewById(R.id.tvChat).setEnabled(false);
-                    v.findViewById(R.id.tvWorkStatus).setEnabled(false);
-                    v.setAlpha(.5f);
+                        changeViewAlpha(v);
                 }
             }
         }

@@ -10,7 +10,7 @@
         {
           "packageDesc": "Paid Service 75.000 km/5th Year",
           "packageCode": "0105 D0570",
-          "workStatus": "no started",
+          "workStatus": "start",
 
           "jobStartTime": "00:00",
           "jobDeadTime": "00:00",
@@ -295,7 +295,7 @@
         {
           "packageDesc": "Paid Service 75.000 km/5th Year",
           "packageCode": "0105 D0570",
-          "workStatus": "no started",
+          "workStatus": "pause",
 
           "jobStartTime": "11:00 am",
           "jobDeadTime": "00:00",
